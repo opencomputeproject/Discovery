@@ -1,0 +1,1 @@
+This part of the repo does contain electrical file for Discovery. All native files are created using KiCAD an opensource EDA tool which can be used to propose enhancement to the community. KiCAD works on Linux, Windows and MacOS

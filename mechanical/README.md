@@ -1,0 +1,1 @@
+This part of the repo does contain mechanical file for Discovery. These files are generated using FreeCAD 0.18 (latest release from the community) FreeCAD is available on Linux, Windows and MacOS. It is free of charge.
