@@ -9,7 +9,7 @@ Cables of the ATX PSU will be connected to the board as follow :
 
 Connectors are 9A per pins which allow us to deliver to the busbar:
 
-*2x4 + 4x3 = 20 pins => 20x9 = 180A 
+*2x4 + 4x3 = 20 pins => 20x9 = 180A
 
 With the cable version we will put cable in crimps using a crimper and then screw the crimp to the board at one side. At the other side, we will screw the crimp to the busbar (two crimps per hole, so four 12V crimps and four GND crimps).
 

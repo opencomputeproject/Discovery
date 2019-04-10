@@ -2,7 +2,7 @@
 
 *You can find every version of the power board used for the Discovery. For every version you will have access to the design and production files folders
 
-*Design files are used to design the board (schematic, routing etc). 
+*Design files are used to design the board (schematic, routing etc).
 In order to use them:
 	-Download every files
 	-Copy them in a folder
