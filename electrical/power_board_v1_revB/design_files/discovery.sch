@@ -20,7 +20,7 @@ U 1 1 5C48C101
 P 1900 2250
 F 0 "J1" H 1950 2450 50  0000 C CNN
 F 1 "Conn_02x04_CPU" H 2050 1950 50  0000 C CNN
-F 2 "footprint_cts:CONN_02x04_4.2mm" H 1900 2250 50  0001 C CNN
+F 2 "discovery:CONN_02x04_4.2mm" H 1900 2250 50  0001 C CNN
 F 3 "~" H 1900 2250 50  0001 C CNN
 	1    1900 2250
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 5C48C722
 P 2950 2250
 F 0 "J3" H 3000 2450 50  0000 C CNN
 F 1 "Conn_02x04_CPU" H 3100 1950 50  0000 C CNN
-F 2 "footprint_cts:CONN_02x04_4.2mm" H 2950 2250 50  0001 C CNN
+F 2 "discovery:CONN_02x04_4.2mm" H 2950 2250 50  0001 C CNN
 F 3 "~" H 2950 2250 50  0001 C CNN
 	1    2950 2250
 	1    0    0    -1  
@@ -145,306 +145,6 @@ F 3 "" H 2650 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J2
-U 1 1 5C48CA8C
-P 1900 3200
-F 0 "J2" H 1950 3400 50  0000 C CNN
-F 1 "Conn_02x04_PCIe" H 1900 2850 50  0000 C CNN
-F 2 "footprint_cts:CONN_02x04_4.2mm" H 1900 3200 50  0001 C CNN
-F 3 "~" H 1900 3200 50  0001 C CNN
-	1    1900 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 3300 1600 3300
-Wire Wire Line
-	1600 3300 1600 3200
-Wire Wire Line
-	1700 3100 1600 3100
-Connection ~ 1600 3100
-Wire Wire Line
-	1600 3100 1600 3000
-Wire Wire Line
-	1700 3200 1600 3200
-Connection ~ 1600 3200
-Wire Wire Line
-	1600 3200 1600 3100
-Wire Wire Line
-	1700 3400 1600 3400
-Wire Wire Line
-	1600 3400 1600 3500
-Wire Wire Line
-	1600 3500 2300 3500
-Wire Wire Line
-	2300 3500 2300 3400
-Wire Wire Line
-	2300 3400 2200 3400
-Wire Wire Line
-	2300 3500 2300 3600
-Connection ~ 2300 3500
-Wire Wire Line
-	2300 3400 2300 3300
-Wire Wire Line
-	2300 3300 2200 3300
-Connection ~ 2300 3400
-Wire Wire Line
-	2300 3300 2300 3200
-Wire Wire Line
-	2300 3200 2200 3200
-Connection ~ 2300 3300
-Wire Wire Line
-	2300 3200 2300 3100
-Wire Wire Line
-	2300 3100 2200 3100
-Connection ~ 2300 3200
-$Comp
-L power:GND #PWR04
-U 1 1 5C4900F1
-P 2300 3600
-F 0 "#PWR04" H 2300 3350 50  0001 C CNN
-F 1 "GND" H 2305 3427 50  0000 C CNN
-F 2 "" H 2300 3600 50  0001 C CNN
-F 3 "" H 2300 3600 50  0001 C CNN
-	1    2300 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR02
-U 1 1 5C49017D
-P 1600 3000
-F 0 "#PWR02" H 1600 2850 50  0001 C CNN
-F 1 "+12V" H 1615 3173 50  0000 C CNN
-F 2 "" H 1600 3000 50  0001 C CNN
-F 3 "" H 1600 3000 50  0001 C CNN
-	1    1600 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J4
-U 1 1 5C49039B
-P 2950 3200
-F 0 "J4" H 3000 3400 50  0000 C CNN
-F 1 "Conn_02x04_PCIe" H 2950 2850 50  0000 C CNN
-F 2 "footprint_cts:CONN_02x04_4.2mm" H 2950 3200 50  0001 C CNN
-F 3 "~" H 2950 3200 50  0001 C CNN
-	1    2950 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 3300 2650 3300
-Wire Wire Line
-	2650 3300 2650 3200
-Wire Wire Line
-	2750 3100 2650 3100
-Connection ~ 2650 3100
-Wire Wire Line
-	2650 3100 2650 3000
-Wire Wire Line
-	2750 3200 2650 3200
-Connection ~ 2650 3200
-Wire Wire Line
-	2650 3200 2650 3100
-Wire Wire Line
-	2750 3400 2650 3400
-Wire Wire Line
-	2650 3400 2650 3500
-Wire Wire Line
-	2650 3500 3350 3500
-Wire Wire Line
-	3350 3500 3350 3400
-Wire Wire Line
-	3350 3400 3250 3400
-Wire Wire Line
-	3350 3500 3350 3600
-Connection ~ 3350 3500
-Wire Wire Line
-	3350 3400 3350 3300
-Wire Wire Line
-	3350 3300 3250 3300
-Connection ~ 3350 3400
-Wire Wire Line
-	3350 3300 3350 3200
-Wire Wire Line
-	3350 3200 3250 3200
-Connection ~ 3350 3300
-Wire Wire Line
-	3350 3200 3350 3100
-Wire Wire Line
-	3350 3100 3250 3100
-Connection ~ 3350 3200
-$Comp
-L power:GND #PWR08
-U 1 1 5C4903B9
-P 3350 3600
-F 0 "#PWR08" H 3350 3350 50  0001 C CNN
-F 1 "GND" H 3355 3427 50  0000 C CNN
-F 2 "" H 3350 3600 50  0001 C CNN
-F 3 "" H 3350 3600 50  0001 C CNN
-	1    3350 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR06
-U 1 1 5C4903BF
-P 2650 3000
-F 0 "#PWR06" H 2650 2850 50  0001 C CNN
-F 1 "+12V" H 2665 3173 50  0000 C CNN
-F 2 "" H 2650 3000 50  0001 C CNN
-F 3 "" H 2650 3000 50  0001 C CNN
-	1    2650 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J5
-U 1 1 5C4915B7
-P 3950 3200
-F 0 "J5" H 4000 3400 50  0000 C CNN
-F 1 "Conn_02x04_PCIe" H 3950 2850 50  0000 C CNN
-F 2 "footprint_cts:CONN_02x04_4.2mm" H 3950 3200 50  0001 C CNN
-F 3 "~" H 3950 3200 50  0001 C CNN
-	1    3950 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 3300 3650 3300
-Wire Wire Line
-	3650 3300 3650 3200
-Wire Wire Line
-	3750 3100 3650 3100
-Connection ~ 3650 3100
-Wire Wire Line
-	3650 3100 3650 3000
-Wire Wire Line
-	3750 3200 3650 3200
-Connection ~ 3650 3200
-Wire Wire Line
-	3650 3200 3650 3100
-Wire Wire Line
-	3750 3400 3650 3400
-Wire Wire Line
-	3650 3400 3650 3500
-Wire Wire Line
-	3650 3500 4350 3500
-Wire Wire Line
-	4350 3500 4350 3400
-Wire Wire Line
-	4350 3400 4250 3400
-Wire Wire Line
-	4350 3500 4350 3600
-Connection ~ 4350 3500
-Wire Wire Line
-	4350 3400 4350 3300
-Wire Wire Line
-	4350 3300 4250 3300
-Connection ~ 4350 3400
-Wire Wire Line
-	4350 3300 4350 3200
-Wire Wire Line
-	4350 3200 4250 3200
-Connection ~ 4350 3300
-Wire Wire Line
-	4350 3200 4350 3100
-Wire Wire Line
-	4350 3100 4250 3100
-Connection ~ 4350 3200
-$Comp
-L power:GND #PWR010
-U 1 1 5C4915D5
-P 4350 3600
-F 0 "#PWR010" H 4350 3350 50  0001 C CNN
-F 1 "GND" H 4355 3427 50  0000 C CNN
-F 2 "" H 4350 3600 50  0001 C CNN
-F 3 "" H 4350 3600 50  0001 C CNN
-	1    4350 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR09
-U 1 1 5C4915DB
-P 3650 3000
-F 0 "#PWR09" H 3650 2850 50  0001 C CNN
-F 1 "+12V" H 3665 3173 50  0000 C CNN
-F 2 "" H 3650 3000 50  0001 C CNN
-F 3 "" H 3650 3000 50  0001 C CNN
-	1    3650 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J6
-U 1 1 5C4915E1
-P 5000 3200
-F 0 "J6" H 5050 3400 50  0000 C CNN
-F 1 "Conn_02x04_PCIe" H 5000 2850 50  0000 C CNN
-F 2 "footprint_cts:CONN_02x04_4.2mm" H 5000 3200 50  0001 C CNN
-F 3 "~" H 5000 3200 50  0001 C CNN
-	1    5000 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 3300 4700 3300
-Wire Wire Line
-	4700 3300 4700 3200
-Wire Wire Line
-	4800 3100 4700 3100
-Connection ~ 4700 3100
-Wire Wire Line
-	4700 3100 4700 3000
-Wire Wire Line
-	4800 3200 4700 3200
-Connection ~ 4700 3200
-Wire Wire Line
-	4700 3200 4700 3100
-Wire Wire Line
-	4800 3400 4700 3400
-Wire Wire Line
-	4700 3400 4700 3500
-Wire Wire Line
-	4700 3500 5400 3500
-Wire Wire Line
-	5400 3500 5400 3400
-Wire Wire Line
-	5400 3400 5300 3400
-Wire Wire Line
-	5400 3500 5400 3600
-Connection ~ 5400 3500
-Wire Wire Line
-	5400 3400 5400 3300
-Wire Wire Line
-	5400 3300 5300 3300
-Connection ~ 5400 3400
-Wire Wire Line
-	5400 3300 5400 3200
-Wire Wire Line
-	5400 3200 5300 3200
-Connection ~ 5400 3300
-Wire Wire Line
-	5400 3200 5400 3100
-Wire Wire Line
-	5400 3100 5300 3100
-Connection ~ 5400 3200
-$Comp
-L power:GND #PWR012
-U 1 1 5C4915FF
-P 5400 3600
-F 0 "#PWR012" H 5400 3350 50  0001 C CNN
-F 1 "GND" H 5405 3427 50  0000 C CNN
-F 2 "" H 5400 3600 50  0001 C CNN
-F 3 "" H 5400 3600 50  0001 C CNN
-	1    5400 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR011
-U 1 1 5C491605
-P 4700 3000
-F 0 "#PWR011" H 4700 2850 50  0001 C CNN
-F 1 "+12V" H 4715 3173 50  0000 C CNN
-F 2 "" H 4700 3000 50  0001 C CNN
-F 3 "" H 4700 3000 50  0001 C CNN
-	1    4700 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+12V #PWR013
 U 1 1 5C4ED06B
 P 5650 1100
@@ -498,7 +198,7 @@ U 1 1 5C4F6750
 P 6550 1150
 F 0 "W1" H 6608 1270 50  0000 L CNN
 F 1 "Fixing hole" V 6450 1000 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D4.0mm" H 6750 1150 50  0001 C CNN
+F 2 "discovery:FixingPoint_Plated_Hole_D4.0mm" H 6750 1150 50  0001 C CNN
 F 3 "~" H 6750 1150 50  0001 C CNN
 	1    6550 1150
 	1    0    0    -1  
@@ -522,7 +222,7 @@ U 1 1 5C4FA49E
 P 6900 1150
 F 0 "W2" H 6958 1270 50  0000 L CNN
 F 1 "Fixing hole" V 6800 1000 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D4.0mm" H 7100 1150 50  0001 C CNN
+F 2 "discovery:FixingPoint_Plated_Hole_D4.0mm" H 7100 1150 50  0001 C CNN
 F 3 "~" H 7100 1150 50  0001 C CNN
 	1    6900 1150
 	1    0    0    -1  
@@ -546,7 +246,7 @@ U 1 1 5C4FD7CA
 P 7250 1150
 F 0 "W3" H 7308 1270 50  0000 L CNN
 F 1 "Fixing hole" V 7150 1000 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D4.0mm" H 7450 1150 50  0001 C CNN
+F 2 "discovery:FixingPoint_Plated_Hole_D4.0mm" H 7450 1150 50  0001 C CNN
 F 3 "~" H 7450 1150 50  0001 C CNN
 	1    7250 1150
 	1    0    0    -1  
@@ -570,7 +270,7 @@ U 1 1 5C4FD7D7
 P 7600 1150
 F 0 "W4" H 7658 1270 50  0000 L CNN
 F 1 "Fixing hole" V 7500 1000 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D4.0mm" H 7800 1150 50  0001 C CNN
+F 2 "discovery:FixingPoint_Plated_Hole_D4.0mm" H 7800 1150 50  0001 C CNN
 F 3 "~" H 7800 1150 50  0001 C CNN
 	1    7600 1150
 	1    0    0    -1  
@@ -594,7 +294,7 @@ U 1 1 5C7065CC
 P 7150 2600
 F 0 "W5" H 7208 2720 50  0000 L CNN
 F 1 "Cable hole" V 7050 2450 50  0000 L CNN
-F 2 "footprint_cts:fixing_hole" H 7350 2600 50  0001 C CNN
+F 2 "discovery:fixing_hole" H 7350 2600 50  0001 C CNN
 F 3 "~" H 7350 2600 50  0001 C CNN
 	1    7150 2600
 	1    0    0    -1  
@@ -605,7 +305,7 @@ U 1 1 5C706602
 P 7450 2600
 F 0 "W6" H 7508 2720 50  0000 L CNN
 F 1 "Cable hole" V 7350 2450 50  0000 L CNN
-F 2 "footprint_cts:fixing_hole" H 7650 2600 50  0001 C CNN
+F 2 "discovery:fixing_hole" H 7650 2600 50  0001 C CNN
 F 3 "~" H 7650 2600 50  0001 C CNN
 	1    7450 2600
 	1    0    0    -1  
@@ -616,7 +316,7 @@ U 1 1 5C70664A
 P 7750 2600
 F 0 "W7" H 7808 2720 50  0000 L CNN
 F 1 "Cable hole" V 7650 2450 50  0000 L CNN
-F 2 "footprint_cts:fixing_hole" H 7950 2600 50  0001 C CNN
+F 2 "discovery:fixing_hole" H 7950 2600 50  0001 C CNN
 F 3 "~" H 7950 2600 50  0001 C CNN
 	1    7750 2600
 	1    0    0    -1  
@@ -627,7 +327,7 @@ U 1 1 5C706696
 P 9250 2600
 F 0 "W12" H 9308 2720 50  0000 L CNN
 F 1 "Cable hole" V 9150 2450 50  0000 L CNN
-F 2 "footprint_cts:fixing_hole" H 9450 2600 50  0001 C CNN
+F 2 "discovery:fixing_hole" H 9450 2600 50  0001 C CNN
 F 3 "~" H 9450 2600 50  0001 C CNN
 	1    9250 2600
 	1    0    0    -1  
@@ -682,7 +382,7 @@ U 1 1 5C706806
 P 8050 2600
 F 0 "W8" H 8108 2720 50  0000 L CNN
 F 1 "Cable hole" V 7950 2450 50  0000 L CNN
-F 2 "footprint_cts:fixing_hole" H 8250 2600 50  0001 C CNN
+F 2 "discovery:fixing_hole" H 8250 2600 50  0001 C CNN
 F 3 "~" H 8250 2600 50  0001 C CNN
 	1    8050 2600
 	1    0    0    -1  
@@ -693,7 +393,7 @@ U 1 1 5C70680C
 P 8350 2600
 F 0 "W9" H 8408 2720 50  0000 L CNN
 F 1 "Cable hole" V 8250 2450 50  0000 L CNN
-F 2 "footprint_cts:fixing_hole" H 8550 2600 50  0001 C CNN
+F 2 "discovery:fixing_hole" H 8550 2600 50  0001 C CNN
 F 3 "~" H 8550 2600 50  0001 C CNN
 	1    8350 2600
 	1    0    0    -1  
@@ -704,7 +404,7 @@ U 1 1 5C706812
 P 8650 2600
 F 0 "W10" H 8708 2720 50  0000 L CNN
 F 1 "Cable hole" V 8550 2450 50  0000 L CNN
-F 2 "footprint_cts:fixing_hole" H 8850 2600 50  0001 C CNN
+F 2 "discovery:fixing_hole" H 8850 2600 50  0001 C CNN
 F 3 "~" H 8850 2600 50  0001 C CNN
 	1    8650 2600
 	1    0    0    -1  
@@ -715,7 +415,7 @@ U 1 1 5C706818
 P 8950 2600
 F 0 "W11" H 9008 2720 50  0000 L CNN
 F 1 "Cable hole" V 8850 2450 50  0000 L CNN
-F 2 "footprint_cts:fixing_hole" H 9150 2600 50  0001 C CNN
+F 2 "discovery:fixing_hole" H 9150 2600 50  0001 C CNN
 F 3 "~" H 9150 2600 50  0001 C CNN
 	1    8950 2600
 	1    0    0    -1  
@@ -792,4 +492,248 @@ Connection ~ 1600 2450
 Wire Wire Line
 	2300 2150 2300 2050
 Connection ~ 2300 2150
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J2
+U 1 1 5CAE0E4E
+P 1900 3300
+F 0 "J2" H 1950 3500 50  0000 C CNN
+F 1 "Conn_02x03_PCIe" H 1900 3100 50  0000 C CNN
+F 2 "discovery:CONN_02x03_4.2mm" H 1900 3300 50  0001 C CNN
+F 3 "~" H 1900 3300 50  0001 C CNN
+	1    1900 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3400 1600 3400
+Wire Wire Line
+	1600 3400 1600 3300
+Wire Wire Line
+	1700 3200 1600 3200
+Connection ~ 1600 3200
+Wire Wire Line
+	1600 3200 1600 3100
+Wire Wire Line
+	1700 3300 1600 3300
+Connection ~ 1600 3300
+Wire Wire Line
+	1600 3300 1600 3200
+$Comp
+L power:+12V #PWR0101
+U 1 1 5CAE0FE2
+P 1600 3100
+F 0 "#PWR0101" H 1600 2950 50  0001 C CNN
+F 1 "+12V" H 1615 3273 50  0000 C CNN
+F 2 "" H 1600 3100 50  0001 C CNN
+F 3 "" H 1600 3100 50  0001 C CNN
+	1    1600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CAE466F
+P 2300 3500
+F 0 "#PWR0102" H 2300 3250 50  0001 C CNN
+F 1 "GND" H 2305 3327 50  0000 C CNN
+F 2 "" H 2300 3500 50  0001 C CNN
+F 3 "" H 2300 3500 50  0001 C CNN
+	1    2300 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3200 2300 3200
+Wire Wire Line
+	2300 3200 2300 3300
+Wire Wire Line
+	2200 3300 2300 3300
+Connection ~ 2300 3300
+Wire Wire Line
+	2300 3300 2300 3400
+Wire Wire Line
+	2200 3400 2300 3400
+Connection ~ 2300 3400
+Wire Wire Line
+	2300 3400 2300 3500
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J4
+U 1 1 5CAEF7E4
+P 2800 3300
+F 0 "J4" H 2850 3500 50  0000 C CNN
+F 1 "Conn_02x03_PCIe" H 2800 3100 50  0000 C CNN
+F 2 "discovery:CONN_02x03_4.2mm" H 2800 3300 50  0001 C CNN
+F 3 "~" H 2800 3300 50  0001 C CNN
+	1    2800 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3400 2500 3400
+Wire Wire Line
+	2500 3400 2500 3300
+Wire Wire Line
+	2600 3200 2500 3200
+Connection ~ 2500 3200
+Wire Wire Line
+	2500 3200 2500 3100
+Wire Wire Line
+	2600 3300 2500 3300
+Connection ~ 2500 3300
+Wire Wire Line
+	2500 3300 2500 3200
+$Comp
+L power:+12V #PWR0103
+U 1 1 5CAEF7F2
+P 2500 3100
+F 0 "#PWR0103" H 2500 2950 50  0001 C CNN
+F 1 "+12V" H 2515 3273 50  0000 C CNN
+F 2 "" H 2500 3100 50  0001 C CNN
+F 3 "" H 2500 3100 50  0001 C CNN
+	1    2500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5CAEF7F8
+P 3200 3500
+F 0 "#PWR0104" H 3200 3250 50  0001 C CNN
+F 1 "GND" H 3205 3327 50  0000 C CNN
+F 2 "" H 3200 3500 50  0001 C CNN
+F 3 "" H 3200 3500 50  0001 C CNN
+	1    3200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 3200 3200 3200
+Wire Wire Line
+	3200 3200 3200 3300
+Wire Wire Line
+	3100 3300 3200 3300
+Connection ~ 3200 3300
+Wire Wire Line
+	3200 3300 3200 3400
+Wire Wire Line
+	3100 3400 3200 3400
+Connection ~ 3200 3400
+Wire Wire Line
+	3200 3400 3200 3500
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J5
+U 1 1 5CAF9889
+P 3700 3300
+F 0 "J5" H 3750 3500 50  0000 C CNN
+F 1 "Conn_02x03_PCIe" H 3700 3100 50  0000 C CNN
+F 2 "discovery:CONN_02x03_4.2mm" H 3700 3300 50  0001 C CNN
+F 3 "~" H 3700 3300 50  0001 C CNN
+	1    3700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3400 3400 3400
+Wire Wire Line
+	3400 3400 3400 3300
+Wire Wire Line
+	3500 3200 3400 3200
+Connection ~ 3400 3200
+Wire Wire Line
+	3400 3200 3400 3100
+Wire Wire Line
+	3500 3300 3400 3300
+Connection ~ 3400 3300
+Wire Wire Line
+	3400 3300 3400 3200
+$Comp
+L power:+12V #PWR0105
+U 1 1 5CAF9897
+P 3400 3100
+F 0 "#PWR0105" H 3400 2950 50  0001 C CNN
+F 1 "+12V" H 3415 3273 50  0000 C CNN
+F 2 "" H 3400 3100 50  0001 C CNN
+F 3 "" H 3400 3100 50  0001 C CNN
+	1    3400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5CAF989D
+P 4100 3500
+F 0 "#PWR0106" H 4100 3250 50  0001 C CNN
+F 1 "GND" H 4105 3327 50  0000 C CNN
+F 2 "" H 4100 3500 50  0001 C CNN
+F 3 "" H 4100 3500 50  0001 C CNN
+	1    4100 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3200 4100 3200
+Wire Wire Line
+	4100 3200 4100 3300
+Wire Wire Line
+	4000 3300 4100 3300
+Connection ~ 4100 3300
+Wire Wire Line
+	4100 3300 4100 3400
+Wire Wire Line
+	4000 3400 4100 3400
+Connection ~ 4100 3400
+Wire Wire Line
+	4100 3400 4100 3500
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J6
+U 1 1 5CAF98AB
+P 4600 3300
+F 0 "J6" H 4650 3500 50  0000 C CNN
+F 1 "Conn_02x03_PCIe" H 4600 3100 50  0000 C CNN
+F 2 "discovery:CONN_02x03_4.2mm" H 4600 3300 50  0001 C CNN
+F 3 "~" H 4600 3300 50  0001 C CNN
+	1    4600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3400 4300 3400
+Wire Wire Line
+	4300 3400 4300 3300
+Wire Wire Line
+	4400 3200 4300 3200
+Connection ~ 4300 3200
+Wire Wire Line
+	4300 3200 4300 3100
+Wire Wire Line
+	4400 3300 4300 3300
+Connection ~ 4300 3300
+Wire Wire Line
+	4300 3300 4300 3200
+$Comp
+L power:+12V #PWR0107
+U 1 1 5CAF98B9
+P 4300 3100
+F 0 "#PWR0107" H 4300 2950 50  0001 C CNN
+F 1 "+12V" H 4315 3273 50  0000 C CNN
+F 2 "" H 4300 3100 50  0001 C CNN
+F 3 "" H 4300 3100 50  0001 C CNN
+	1    4300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5CAF98BF
+P 5000 3500
+F 0 "#PWR0108" H 5000 3250 50  0001 C CNN
+F 1 "GND" H 5005 3327 50  0000 C CNN
+F 2 "" H 5000 3500 50  0001 C CNN
+F 3 "" H 5000 3500 50  0001 C CNN
+	1    5000 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3200 5000 3200
+Wire Wire Line
+	5000 3200 5000 3300
+Wire Wire Line
+	4900 3300 5000 3300
+Connection ~ 5000 3300
+Wire Wire Line
+	5000 3300 5000 3400
+Wire Wire Line
+	4900 3400 5000 3400
+Connection ~ 5000 3400
+Wire Wire Line
+	5000 3400 5000 3500
 $EndSCHEMATC

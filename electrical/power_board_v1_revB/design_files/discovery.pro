@@ -1,4 +1,4 @@
-update=03/04/2019 23:09:11
+update=10/04/2019 16:41:20
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=prod discovery v2/
+PlotDirectoryName=../production_files/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
